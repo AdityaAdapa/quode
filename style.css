@@ -53,7 +53,7 @@ body {margin: 0px;}
     z-index: 99;
     box-shadow: 3px 3px 3px grey;
     border-radius: 10px;
-    border-top: 1px solid lightcyan;
+    border-top: 1px solid cyan;
 }
 .dropdown-links a:hover {background-color: cyan;}
 .dropdownSpan {position: relative; display: inline-block;}
