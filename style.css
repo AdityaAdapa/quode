@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {box-sizing: border-box;}
+@media only screen and (min-width: 260) {* {display: none;}}
+h1, h2, h3, h4, h5, h6 {text-align: center;}
+#title {
+    cursor: pointer;
+    color: blue;
+    margin: 0px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px darkblue;
+    background: darkcyan;
+    border-radius: 50px;
+}
+html {background-color: lightcyan;}
+body {margin: 0px;}
+.navbar {
+    background-color: cyan;
+    height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+.navbutton {
+    background-color: cyan;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.search {
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    background-color: cyan;
+}
+.search:focus {border: none;}
+@media only screen and (max-width: 550px) {
+    .navbutton {display: none;}
+}
+.navbutton:hover {background-color: darkcyan;}
+.dropdown-links {
+    display: none;
+    padding: 10px;
+    width: 200%;
+    background-color: darkcyan;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 99;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 10px;
+    border-top: 1px solid lightcyan;
+}
+.dropdown-links a:hover {background-color: cyan;}
+.dropdownSpan {position: relative; display: inline-block;}
+.dropdown-links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    overflow-y: visible;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dropdownSpan:hover .dropdown-links {display: block;}
