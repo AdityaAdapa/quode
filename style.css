@@ -55,6 +55,8 @@ body {margin: 0px;}
     box-shadow: 3px 3px 3px grey;
     border-radius: 10px;
     border-top: 1px solid cyan;
+    max-height: 100px;
+    overflow: auto;
 }
 .dropdown-links a:hover {background-color: cyan;}
 .dropdownSpan {position: relative; display: inline-block;}
