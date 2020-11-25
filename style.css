@@ -19,6 +19,7 @@ body {margin: 0px;}
     height: 50px;
     text-align: center;
     transition: 0.3s;
+    box-shadow: 5px 0px 0px;
 }
 .navbutton {
     background-color: cyan;
