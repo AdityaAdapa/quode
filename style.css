@@ -12,14 +12,12 @@ h1, h2, h3, h4, h5, h6 {text-align: center;}
     background: darkcyan;
     border-radius: 50px;
 }
-html {background-color: lightcyan;}
-body {margin: 0px;}
+html {background-color: lightcyan;} body {margin: 0px;}
 .navbar {
     background-color: cyan;
     height: 50px;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 5px 5px 5px;
 }
 .navbutton {
     background-color: cyan;
@@ -71,9 +69,7 @@ body {margin: 0px;}
     transition: 0.5s !important;
 }
 .dropdownSpan:hover .dropdown-links {display: block;}
-::-webkit-scrollbar {
-    width: 5px;
-}
+::-webkit-scrollbar {width: 5px;}
 ::-webkit-scrollbar-track {background-color: transparent;}
 ::-webkit-scrollbar-thumb {background-color: black;border-radius: 50px;}
 ::-webkit-scrollbar-thumb:hover {background-color: rgb(36, 34, 34);width: 10px;}
