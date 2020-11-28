@@ -73,3 +73,4 @@ html {background-color: lightcyan;} body {margin: 0px;}
 ::-webkit-scrollbar-track {background-color: transparent;}
 ::-webkit-scrollbar-thumb {background-color: black;border-radius: 50px;}
 ::-webkit-scrollbar-thumb:hover {background-color: rgb(36, 34, 34);width: 10px;}
+@media only screen and (max-width: 280px) {* {display: none;}}
